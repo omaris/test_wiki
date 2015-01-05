@@ -1,36 +1,13 @@
-![Kalibr](https://raw.githubusercontent.com/wiki/ethz-asl/kalibr/images/kalibr_small.png)
+![Kalibr](https://raw.githubusercontent.com/wiki/omaris/test_wiki/images/vi-sensor-front.jpg)
 
 ##Introduction
-Kalibr is a toolbox that solves the following calibration problems:
 
-1. **Multiple camera calibration**: 
-    intrinsic and extrinsic calibration of a camera-systems with non-globally shared overlapping fields of view
-1. **Camera-IMU calibration**:
-    spatial and temporal calibration of an IMU w.r.t a camera-system
-
-To make the calibration task more convenient and reproducible the following tools are available:
-
-1. **camera focus**: tool to set the camera focus in a reproducible way
-1. **calibration validator**: validation tool that computes the reprojection error statistics of the calibrated camera-system on live ROS image streams
-
-**For questions or comments, please use the [user forum](https://groups.google.com/forum/#!forum/kalibr-users).**
-##Authors
-* Paul Furgale ([email](paul.furgale@mavt.ethz.ch))
-* Jérôme Maye ([email](jerome.maye@mavt.ethz.ch))
-* Jörn Rehder ([email](joern.rehder@mavt.ethz.ch))
-* Thomas Schneider ([email](schneith@ethz.ch))
-
-## References
-The calibration approaches used in Kalibr are based on the following papers. Please cite the appropriate papers when using this toolbox or parts of it in an academic publication.
-
-1. <a name="paul1"></a>Paul Furgale, Joern Rehder, Roland Siegwart (2013). Unified Temporal and Spatial Calibration for Multi-Sensor Systems. In Proceedings of the IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), Tokyo, Japan.
-1. <a name="paul2"></a>Paul Furgale, T D Barfoot, G Sibley (2012). Continuous-Time Batch Estimation Using Temporal Basis Functions. In Proceedings of the IEEE International Conference on Robotics and Automation (ICRA), pp. 2088–2095, St. Paul, MN.
-1. <a name="jmaye"></a> J. Maye, P. Furgale, R. Siegwart (2013). Self-supervised Calibration for Robotic Systems, In Proc. of the IEEE Intelligent Vehicles Symposium (IVS)
+This WIKI describes the ROS interface to the [Visual-Inertial (VI-) Sensor](http://www.skybotix.com/vi-sensor-early-adopter-application/) developed by [Skybotix](http://www.skybotix.com) and the [Autonomous Systems Lab (ASL), ETH Zurich] (http://www.asl.ethz.ch/). This sensor provides fully time-synchronized and factory calibrated IMU- and stereo-camera data streams. A detailed spec sheet of the sensor can be found [here](http://www.skybotix.com/skybotix-wordpress/wp-content/uploads/2014/03/VISensor_Factsheet_web.pdf).
 
 
 ##License (BSD)
-Copyright (c) 2014, Paul Furgale, Jérôme Maye and Jörn Rehder, Autonomous Systems Lab, ETH Zurich, Switzerland<br>
-Copyright (c) 2014, Thomas Schneider, Skybotix AG, Switzerland<br>
+Copyright (c) 2014, Skybotix AG, Switzerland<br>
+Copyright (c) 2014, Autonomous Systems Lab, ETH Zurich, Switzerland<br>
 All rights reserved.<br>
 
 Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
@@ -41,6 +18,6 @@ Redistribution and use in source and binary forms, with or without modification,
 
 1. All advertising materials mentioning features or use of this software must display the following acknowledgement: This product includes software developed by the Autonomous Systems Lab and Skybotix AG.
 
-1. Neither the name of the Autonomous Systems Lab and Skybotix AG nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
+1. Neither the name of the Skybotix AG and Autonomous Systems Lab nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
 
-THIS SOFTWARE IS PROVIDED BY THE AUTONOMOUS SYSTEMS LAB AND SKYBOTIX AG ''AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL the AUTONOMOUS SYSTEMS LAB OR SKYBOTIX AG BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+THIS SOFTWARE IS PROVIDED BY THE SKYBOTIX AG AND AUTONOMOUS SYSTEMS LAB ''AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL the SKYBOTIX OR AUTONOMOUS SYSTEMS LAB AG BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
