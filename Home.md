@@ -1,7 +1,6 @@
-![Kalibr](https://raw.githubusercontent.com/wiki/omaris/test_wiki/images/vi-sensor-front.jpg)
+![VI-Sensor](https://raw.githubusercontent.com/wiki/omaris/test_wiki/images/vi-sensor-front.jpg)
 
 ##Introduction
-
 This WIKI describes the ROS interface to the [Visual-Inertial (VI-) Sensor](http://www.skybotix.com/vi-sensor-early-adopter-application/) developed by [Skybotix](http://www.skybotix.com) and the [Autonomous Systems Lab (ASL), ETH Zurich] (http://www.asl.ethz.ch/). This sensor provides fully time-synchronized and factory calibrated IMU- and stereo-camera data streams. A detailed spec sheet of the sensor can be found [here](http://www.skybotix.com/skybotix-wordpress/wp-content/uploads/2014/03/VISensor_Factsheet_web.pdf).
 
 
