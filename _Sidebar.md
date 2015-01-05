@@ -1,5 +1,5 @@
 [Home](home)<br>
-[Downloads](downloads)<br>
+[Powering the Sensor](02-powering-the-sensor)<br>
 [Installation](installation)<br>
 
 Tools
